@@ -8,11 +8,11 @@ $asocijativni=array(
 		'godiste'=>1981
 );
 $asocijativni['mesto']='Sarajevo';
-$probni_niz=[3,4,5];
+$probni_niz=array(3,4,5);
 echo "</br>".$probni_niz['0'];
 echo "</br>".$asocijativni['prezime'];
-echo "</br>".$asocijativni['mesto'];
-echo "</br>".$asocijativni;
+echo "</br>".$asocijativni['mesto']."</br>";
+print_r ($asocijativni);
 
 if (array_key_exists('ime', $asocijativni)){
 	echo "Postoji";
